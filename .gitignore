@@ -1,0 +1,9 @@
+node_modules/
+.output/
+.vercel/
+.tanstack/
+.node_modules.lock
+.env
+.env.*
+!.env.example
+.DS_Store

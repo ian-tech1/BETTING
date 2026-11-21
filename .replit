@@ -1,0 +1,9 @@
+entrypoint = "startup.sh"
+runtime = "nodejs20"
+
+[deployment]
+deploymentTarget = "cloudrun"
+run = ["npm", "run", "start"]
+
+[env]
+PORT = "3000"
